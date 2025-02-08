@@ -1,0 +1,72 @@
+@charset "UTF-8";
+#root {
+  max-width: 1280px;
+  padding: 0rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container-main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navExtra {
+  flex-basis: 65%;
+  padding: 0.5rem;
+}
+
+.navList {
+  flex-basis: 35%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0;
+  position: relative;
+}
+
+.navList li {
+  margin-left: 2rem;
+}
+
+.navList a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease-in-out, color 0.3s;
+}
+
+.navList a:hover {
+  background-color: #555;
+}
+
+/* Ползунок */
+.indicator {
+  position: absolute;
+  bottom: -1.25rem;
+  height: 0.6rem;
+  background-color: rgb(140, 138, 152);
+  border-radius: 0.3rem;
+  transition: left 0.45s ease-in-out, width 0.3s ease-in-out;
+}
+
+/* Активная ссылка */
+.active {
+  background-color: #353535;
+  box-shadow: inset;
+}/*# sourceMappingURL=main.css.map */
