@@ -19,6 +19,7 @@ namespace PRELIMINARYCOMMENCING.Server
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            //ruslan
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
